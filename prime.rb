@@ -1,6 +1,6 @@
 def prime? (num)
   if num < 0 
-    num = -num
+    num *= -1
   end
   
   (2..(num - 1)).each do |n|
