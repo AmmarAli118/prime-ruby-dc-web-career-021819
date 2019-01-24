@@ -1,5 +1,5 @@
 def prime? (num)
-  false if num = -num
+  false if num == -num
   
   (2..(num - 1)).each do |n|
     false if num % n == 0
