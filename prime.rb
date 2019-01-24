@@ -4,7 +4,7 @@ def prime? (int)
     if int % i == 0 
       true
     else
-      true
+      false
     end
   end
 end
